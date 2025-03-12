@@ -1,0 +1,90 @@
+/* General Styling */
+body {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Button Container */
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Row Layout */
+.line-one,
+.line-two {
+    display: flex;
+    gap: 15px;
+}
+
+/* Button Design */
+.btn {
+    border: 5px solid #333;
+    border-radius: 20%;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Colors */
+.pink { background-color: #ff758f; } 
+.blue { background-color: #63d1f4; } 
+.purple { background-color: #9b5de5; } 
+.yellow { background-color: #f4d35e; } 
+
+/* Hover Effect */
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Active (Pressed) Effect */
+.btn:active {
+    transform: scale(0.95);
+    box-shadow: none;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .btn {
+        height: 120px;
+        width: 120px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+.flash
+{
+    background-color: whitesmoke;
+}
+.userflash
+{
+    background-color: grey;
+}
